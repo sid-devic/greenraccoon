@@ -213,7 +213,7 @@ export default class swiper extends Component {
       ],
     };
 
-    const response = await fetch("https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBNFR2D2R7B1cXa_2biHBGz-2X9iyIt_HA", {
+    const response = await fetch("https://vision.googleapis.com/v1/images:annotate?key=", { // don't steal my key
       method: 'POST',
       headers: {
         'Accept': 'application/json',
@@ -289,7 +289,7 @@ export default class swiper extends Component {
       ],
     };
 
-    const response = await fetch("https://vision.googleapis.com/v1/images:annotate?key=AIzaSyBNFR2D2R7B1cXa_2biHBGz-2X9iyIt_HA", {
+    const response = await fetch("https://vision.googleapis.com/v1/images:annotate?key=", { // eww
       method: 'POST',
       headers: {
         'Accept': 'application/json',
